@@ -56,14 +56,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		698408442CA18CE9006CD223 /* Exceptions for "SimpleAPNProject" folder in "SimpleAPNProjectTests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"GoogleService-Info.plist",
-			);
-			target = 693E7F992C9D6B900047EB37 /* SimpleAPNProjectTests */;
-		};
-		698408452CA18CE9006CD223 /* Exceptions for "SimpleAPNProject" folder in "SimpleAPNProjectUITests" target */ = {
+		697C8EB82CA4006600570B8C /* Exceptions for "SimpleAPNProjectTests" folder in "SimpleAPNProjectUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"GoogleService-Info.plist",
@@ -84,14 +77,15 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				698408772CA18EC8006CD223 /* Exceptions for "SimpleAPNProject" folder in "SimpleAPNProject" target */,
-				698408442CA18CE9006CD223 /* Exceptions for "SimpleAPNProject" folder in "SimpleAPNProjectTests" target */,
-				698408452CA18CE9006CD223 /* Exceptions for "SimpleAPNProject" folder in "SimpleAPNProjectUITests" target */,
 			);
 			path = SimpleAPNProject;
 			sourceTree = "<group>";
 		};
 		693E7F9D2C9D6B900047EB37 /* SimpleAPNProjectTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				697C8EB82CA4006600570B8C /* Exceptions for "SimpleAPNProjectTests" folder in "SimpleAPNProjectUITests" target */,
+			);
 			path = SimpleAPNProjectTests;
 			sourceTree = "<group>";
 		};
