@@ -30,6 +30,8 @@
 		698408702CA18D62006CD223 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 6984086F2CA18D62006CD223 /* FirebaseStorage */; };
 		698408722CA18D62006CD223 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 698408712CA18D62006CD223 /* FirebaseStorageCombine-Community */; };
 		698408742CA18D62006CD223 /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = 698408732CA18D62006CD223 /* FirebaseVertexAI-Preview */; };
+		699597D92CABE61C00FFF51A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 699597D82CABE61C00FFF51A /* FirebaseMessaging */; };
+		699597DB2CABE67400FFF51A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 699597DA2CABE67400FFF51A /* FirebaseMessaging */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699597D92CABE61C00FFF51A /* FirebaseMessaging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699597DB2CABE67400FFF51A /* FirebaseMessaging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +234,7 @@
 			);
 			name = SimpleAPNProjectTests;
 			packageProductDependencies = (
+				699597D82CABE61C00FFF51A /* FirebaseMessaging */,
 			);
 			productName = SimpleAPNProjectTests;
 			productReference = 693E7F9A2C9D6B900047EB37 /* SimpleAPNProjectTests.xctest */;
@@ -253,6 +258,7 @@
 			);
 			name = SimpleAPNProjectUITests;
 			packageProductDependencies = (
+				699597DA2CABE67400FFF51A /* FirebaseMessaging */,
 			);
 			productName = SimpleAPNProjectUITests;
 			productReference = 693E7FA42C9D6B900047EB37 /* SimpleAPNProjectUITests.xctest */;
@@ -787,6 +793,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 698408462CA18D62006CD223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = "FirebaseVertexAI-Preview";
+		};
+		699597D82CABE61C00FFF51A /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 698408462CA18D62006CD223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		699597DA2CABE67400FFF51A /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 698408462CA18D62006CD223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
